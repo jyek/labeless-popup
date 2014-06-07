@@ -1,0 +1,15 @@
+{
+  "name": "labeless-popup",
+  "version": "1.0.0",
+  "authors": [
+    "jyek <justinyek@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
