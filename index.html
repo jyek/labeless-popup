@@ -5,13 +5,76 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Labeless</title>
+  <title>Labeless: Inspire Your Everyday</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width">
+
+  <!-- Fonts and Styles -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="styles/styles.css" />
 </head>
 
 <body>
-  <div><img src="img/invite.png"></div>
-  <button>Click to RSVP</button>
+
+  <!-- Header -->
+  <section class="header">
+    <div class="container">
+      <img src="img/popup-header.png">
+    </div>
+  </section>
+
+  <!-- Invite -->
+  <section class="invite">
+    <div class="container">
+      <div class="col col-md-4 slideUp">
+        <h3>Saturday<br>
+        July 5th, 2014<br>
+        11am - 3pm</h3>
+      </div>
+      <div class="col col-md-4 slideUp">
+        <h3>16th Floor<br>
+        107-115 Hennessy Road<br>
+        Wan Chai</h3>
+      </div>
+      <div class="col col-md-4 slideUp">
+        <h3>Cocktails & canapes will be served</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- RSVP -->
+  <section class="rsvp">
+    <button class="btn-labeless" data-toggle="modal" data-target="#modal">Click to RSVP</button>
+  </section>
+
+  <!-- Modal -->
+  <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h2 class="modal-title" id="myModalLabel">labeless</h4>
+          <hr>
+          <h5>RSVP to Our Pop Up Shop Events</h5>
+        </div>
+        <div class="modal-body">
+
+          <input type="text" name="First Name"></input>
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn-labeless btn-mini">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JS -->
+  <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="app/app.js"></script>
+
 </body>
 </html>

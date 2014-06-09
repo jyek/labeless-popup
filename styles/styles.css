@@ -1,0 +1,150 @@
+/* General
+ ----------------------------------------------------*/
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+/* Header
+ ----------------------------------------------------*/
+
+.header {
+  padding: 40px 0px;
+}
+
+.header img {
+  width: 100%;
+}
+
+/* Invite
+ ----------------------------------------------------*/
+
+.col {
+  text-align: center;
+}
+
+/* RSVP
+ ----------------------------------------------------*/
+
+.rsvp {
+  padding: 40px 0px;
+  text-align: center;
+}
+
+.btn-labeless {
+  font-size: 22px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 7px 35px;
+  background-color: rgb(25, 25, 25);
+  color: white;
+  border: none;
+
+  -webkit-transition: background 0.3s linear;
+  -moz-transition: background 0.3s linear;
+  -ms-transition: background 0.3s linear;
+  -o-transition: background 0.3s linear;
+  transition: background 0.3s linear;
+}
+
+.btn-mini {
+  font-size: 16px;
+}
+
+.btn-rsvp:hover {
+  background-color: #9f0728;
+}
+
+/* Modal
+ ----------------------------------------------------*/
+
+.modal-dialog {
+  margin: 10% auto;
+}
+
+.modal-content {
+  border-radius: 0px;
+  top: 30%;
+  border: 0px;
+}
+
+.modal-header {
+  text-align: center;
+}
+
+.modal-footer {
+  text-align: center;
+}
+
+/*
+==============================================
+slideUp
+==============================================
+*/
+
+.slideUp{
+    animation-name: slideUp;
+    -webkit-animation-name: slideUp;
+
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+
+    animation-timing-function: ease;
+    -webkit-animation-timing-function: ease;
+
+    visibility: visible !important;
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(100%);
+    }
+    50%{
+        transform: translateY(-8%);
+    }
+    65%{
+        transform: translateY(4%);
+    }
+    80%{
+        transform: translateY(-4%);
+    }
+    95%{
+        transform: translateY(2%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@-webkit-keyframes slideUp {
+    0% {
+        -webkit-transform: translateY(100%);
+    }
+    50%{
+        -webkit-transform: translateY(-8%);
+    }
+    65%{
+        -webkit-transform: translateY(4%);
+    }
+    80%{
+        -webkit-transform: translateY(-4%);
+    }
+    95%{
+        -webkit-transform: translateY(2%);
+    }
+    100% {
+        -webkit-transform: translateY(0%);
+    }
+}
