@@ -124,6 +124,15 @@ label { font-weight: 400; }
   padding: 15px 15px 0px 15px;
 }
 
+.modal-response { padding-bottom: 15px; }
+
+
+/* Mobile Portrait Size */
+@media only screen and (max-width: 479px) {
+  .modal-dialog { width: 95%; }
+  .modal-content { width: 95%; }
+}
+
 /*
 ==============================================
 slideUp
