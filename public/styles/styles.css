@@ -124,17 +124,29 @@ label { font-weight: 400; }
   padding: 15px 15px 0px 15px;
 }
 
-.modal-response { padding-bottom: 15px; }
+body.modal-open > .wrap {
+  overflow: hidden;
+  height: 100%;
+}
+
+.modal-content,
+.modal-dialog,
+.modal-body {
+  height: inherit;
+  min-height: 100%;
+}
 
 .modal {
+  min-height: 100%;
   position: absolute;
 }
 
 /* Mobile Portrait Size */
 @media only screen and (max-width: 479px) {
-  .modal-dialog { width: 95%; }
+  .modal-dialog { width: 100%; }
   .modal-content { width: 100%; }
   .modal-header { padding-top: 25px; }
+  .mobile-padding { padding-top: 10px; }
 }
 
 /*

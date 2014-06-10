@@ -18,37 +18,41 @@
 </head>
 
 <body>
-
-  <!-- Header -->
-  <section class="header">
-    <div class="container">
-      <img src="img/popup-header.png">
-    </div>
-  </section>
-
-  <!-- Invite -->
-  <section class="invite">
-    <div class="container">
-      <div class="col col-md-4 slideUp">
-        <h3>Saturday<br>
-        July 5th, 2014<br>
-        11am - 3pm</h3>
+  <!-- Non-Modal Content -->
+  <div class="wrap">
+    <!-- Header -->
+    <section class="header">
+      <div class="container">
+        <img src="img/popup-header.png">
       </div>
-      <div class="col col-md-4 slideUp">
-        <h3>16th Floor<br>
-        107-115 Hennessy Road<br>
-        Wan Chai</h3>
-      </div>
-      <div class="col col-md-4 slideUp">
-        <h3>Cocktails & canapes will be served</h3>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- RSVP -->
-  <section class="rsvp">
-    <button class="btn-labeless" data-toggle="modal" data-target="#modal">Click to RSVP</button>
-  </section>
+    <!-- Invite -->
+    <section class="invite">
+      <div class="container">
+        <div class="col col-md-4 slideUp">
+          <h3>Saturday<br>
+          July 5th, 2014<br>
+          11am - 3pm</h3>
+        </div>
+        <div class="col col-md-4 slideUp">
+          <h3>16th Floor<br>
+          107-115 Hennessy Road<br>
+          Wan Chai</h3>
+        </div>
+        <div class="col col-md-4 slideUp">
+          <h3>Cocktails & canapes will be served</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- RSVP -->
+    <section class="rsvp">
+      <button class="btn-labeless" data-toggle="modal" data-target="#modal">Click to RSVP</button>
+    </section>
+
+  <!-- Non-Modal Content End -->
+  </div>
 
   <!-- Modal -->
   <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -64,22 +68,22 @@
         <form action="http://labeless.us3.list-manage1.com/subscribe/post?u=e16fe07a65153c2bbba78a23f&amp;id=100e2dcaad" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
           <div class="modal-body">
             <div id="mc_embed_signup">
-              <div class="form-group col-xs-12">
+              <div class="form-group col-md-12">
                 <label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label>
                 <input type="email" value="" name="EMAIL" class="form-control required email" id="mce-EMAIL">
                 <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
               </div>
               <div class="form-group">
-                <div class="col-xs-6">
+                <div class="col-md-6">
                   <label for="mce-FNAME">First Name </label>
                   <input type="text" value="" name="FNAME" class="form-control" id="mce-FNAME">
                 </div>
-                <div class="col-xs-6">
+                <div class="col-md-6 mobile-padding">
                   <label for="mce-LNAME">Last Name </label>
                   <input type="text" value="" name="LNAME" class="form-control" id="mce-LNAME">
                 </div>
               </div>
-              <div class="subscribe form-group col-xs-12">
+              <div class="subscribe form-group col-md-12">
                 <label class="checkbox-label">
                   <input class="checkbox" type="checkbox">
                   Subscribe to us for updates, sales and future events. P.S. We value your privacy as much as you do. Feel free to unsubscribe anytime. Thank you!
