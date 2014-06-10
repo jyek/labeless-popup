@@ -133,6 +133,7 @@ label { font-weight: 400; }
   left: 3%;
   width: auto;
   margin: 0;
+  -webkit-overflow-scrolling: touch;
 }
 .modal-body {
   height: 60%;
@@ -142,7 +143,6 @@ label { font-weight: 400; }
   max-height: 350px;
   padding: 15px;
   overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
  }
 
 /* Mobile Portrait Size */
