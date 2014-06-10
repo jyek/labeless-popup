@@ -7,9 +7,15 @@ body, h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
 }
 
-h3 {
-  font-size: 24px;
+h1 {
+  font-size: 30px;
   text-transform: uppercase;
+}
+
+h3 {
+  font-size: 22px;
+  text-transform: uppercase;
+  padding-bottom: 15px;
 }
 
 h5 {
@@ -32,6 +38,15 @@ label { font-weight: 400; }
   width: 100%;
 }
 
+.header-box {
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 2px solid black;
+  padding: 1.5px;
+  margin: 0px;
+}
+
 /* Invite
  ----------------------------------------------------*/
 
@@ -48,7 +63,7 @@ label { font-weight: 400; }
 }
 
 .btn-labeless {
-  font-size: 22px;
+  font-size: 20px;
   letter-spacing: 2px;
   text-transform: uppercase;
   padding: 7px 35px;
@@ -74,6 +89,14 @@ label { font-weight: 400; }
 /* Modal
  ----------------------------------------------------*/
 
+.modal { position: absolute; }
+
+.modal-content,
+.modal-dialog,
+.modal-body {
+  height: inherit;
+}
+
 .modal-dialog {
   margin: 10% auto;
   width: 500px;
@@ -89,7 +112,6 @@ label { font-weight: 400; }
 
 .modal-content {
   border-radius: 0px;
-  top: -50px;
   border: 0px;
 }
 
@@ -129,16 +151,18 @@ body.modal-open > .wrap {
   height: 100%;
 }
 
-.modal-content,
-.modal-dialog,
-.modal-body {
-  height: inherit;
-  min-height: 100%;
+button.close {
+  background-color: black;
+  color: white;
+  opacity: 1;
+  font-weight: 400;
+  border-radius: 10px;
+  text-shadow: none;
+  width: 20px;
 }
 
-.modal {
-  min-height: 100%;
-  position: absolute;
+button.close:hover {
+  color: white;
 }
 
 /* Mobile Portrait Size */
