@@ -126,11 +126,30 @@ label { font-weight: 400; }
 
 .modal-response { padding-bottom: 15px; }
 
+.modal {
+  position: fixed;
+  top: 3%;
+  right: 3%;
+  left: 3%;
+  width: auto;
+  margin: 0;
+}
+.modal-body {
+  height: 60%;
+}
+
+.modal-body {
+  max-height: 350px;
+  padding: 15px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+ }
 
 /* Mobile Portrait Size */
 @media only screen and (max-width: 479px) {
   .modal-dialog { width: 95%; }
-  .modal-content { width: 95%; }
+  .modal-content { width: 100%; }
+  .modal-header { padding-top: 25px; }
 }
 
 /*
