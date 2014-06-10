@@ -27,6 +27,8 @@ hr { border-top: 4px solid #eee; }
 
 label { font-weight: 400; }
 
+.form-control { border-radius: 0px; }
+
 /* Header
  ----------------------------------------------------*/
 
@@ -98,7 +100,7 @@ label { font-weight: 400; }
 }
 
 .modal-dialog {
-  margin: 10% auto;
+  margin: 30px auto;
   width: 500px;
 }
 
