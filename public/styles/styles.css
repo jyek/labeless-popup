@@ -173,6 +173,7 @@ button.close:hover {
   .modal-content { width: 100%; }
   .modal-header { padding-top: 25px; }
   .mobile-padding { padding-top: 10px; }
+  body.modal-open > .wrap { display: none; }
 }
 
 /*
