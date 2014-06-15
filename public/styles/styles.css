@@ -136,6 +136,8 @@ label { font-weight: 400; }
 .indicates-required { padding-top: 5px; }
 .asterisk { color: #9f0728; }
 
+.response { padding-bottom: 20px; }
+
 .checkbox-label {
   display: block;
   margin-left: 20px;
