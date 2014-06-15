@@ -190,7 +190,7 @@ button.close:hover {
   .modal-content { width: 100%; }
   .modal-header { padding-top: 25px; }
   .mobile-padding { padding-top: 10px; }
-  .checkbox { margin-left: -30px !important; }
+  .checkbox { margin-left: -25px !important; }
   body.modal-open > .wrap { display: none; }
 }
 
