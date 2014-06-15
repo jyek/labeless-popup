@@ -33,7 +33,9 @@ label { font-weight: 400; }
  ----------------------------------------------------*/
 
 .header {
-  padding: 60px 0px;
+  padding-bottom: 60px;
+  padding-top: 100px;
+  padding-top: 25vh;
   text-align: center;
 }
 
